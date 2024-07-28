@@ -44,21 +44,17 @@ h1, h2 {
     color: #ff9800;
 }
 
-.card {
-    background: white;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
 }
 
-.card img {
-    width: 200px;
-    height: auto;
-    border-radius: 8px;
-    margin-right: 20px;
+section h2 {
+    font-size: 2em;
+}
+
+section p {
+    font-size: 1.2em;
 }
 
 .btn {
@@ -81,7 +77,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
